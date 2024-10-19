@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.right-column{
+    height: 100vh;
+    background-size: cover;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20vh 0 20px 0;
+    background-image: url("images/micheile-henderson-YLON65WYjDk-unsplash.jpg");
+}
+
+.logo h1{
+    color: #BFB8AE;
+}
+
+.logo img{
+    width: 80;
+    height: auto;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: rgba(3, 44, 166, 0.8);
+}
