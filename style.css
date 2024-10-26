@@ -36,3 +36,67 @@ body{
     padding: 10px 0;
     background-color: rgba(3, 44, 166, 0.8);
 }
+
+form{
+    padding-block: 100px 0;
+    width: 70%;
+}
+
+form .intro, form .form-controls, form .form-footer{
+    padding-inline: 50px 20%;
+}
+
+form .intro p, form .form-controls p{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+form p:nth-of-type(2) {
+    margin-top: 20px;
+}
+
+form .form-controls {
+    margin-block: 50px 25px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2), 0 -2px 10px -2px rgba(0, 0, 0, 0.1);
+    padding-block: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    justify-content: space-between;
+}
+
+form .form-controls p {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form .form-controls label {
+    width: 40%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(100, 100, 100)   
+}
+
+form button {
+    background-color: var(--green-color);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.05rem;
+    margin-bottom: 30px;
+}
+
+form input {
+    border: 2px solid #193c80;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+form input:focus {
+    border-color: rgb(152, 174, 45);
+    outline: none;
+    box-shadow: 5px 5px 10px -2px rgba(0, 0, 0, 0.2);
+}
